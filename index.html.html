@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise Mahmoud Frechichi - Showcase Officiel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f8fafc;
+        }
+        h1, h2, h3, .heading-font {
+            font-family: 'Outfit', sans-serif;
+        }
+        .blueprint-bg {
+            background-color: #0f172a;
+            background-image: radial-gradient(#1e293b 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        .stats-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .data-row:nth-child(even) {
+            background-color: #f1f5f9;
+        }
+        .machinery-icon {
+            filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.3));
+        }
+    </style>
+</head>
+<body class="text-slate-900">
+
+    <!-- Header / Nav -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white">
+                    <i data-lucide="building-2" class="w-6 h-6"></i>
+                </div>
+                <div class="leading-none">
+                    <h1 class="font-bold text-xl tracking-tight text-slate-900 uppercase">Mahmoud Frechichi</h1>
+                    <span class="text-[10px] font-bold text-blue-600 tracking-[0.2em] uppercase">Entreprise Génie Civil</span>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-semibold uppercase tracking-wider text-slate-600">
+                <a href="#expertises" class="hover:text-blue-600 transition-colors">Expertises</a>
+                <a href="#materiel" class="hover:text-blue-600 transition-colors">Matériel</a>
+                <a href="#references" class="hover:text-blue-600 transition-colors">Références</a>
+                <a href="#standards" class="hover:text-blue-600 transition-colors">Normes</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6 blueprint-bg text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
+            <div>
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest mb-6">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                    </span>
+                    Partenaire Infrastructures Tunisie
+                </div>
+                <h2 class="text-5xl md:text-7xl font-bold leading-[1.1] mb-8">
+                    L'ingénierie au service de la <span class="text-blue-500 underline decoration-blue-500/30 underline-offset-8">précision.</span>
+                </h2>
+                <p class="text-lg text-slate-400 max-w-xl leading-relaxed mb-10">
+                    Entreprise Mahmoud Frechichi déploie des solutions techniques avancées en Voiries, Génie Civil et Télécoms. Une rigueur certifiée pour les projets d'envergure nationale.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <!-- Changed to 'a' tags for functionality -->
+                    <a href="#references" class="px-6 py-3 bg-blue-600 rounded-lg font-bold hover:bg-blue-700 transition-all cursor-pointer inline-block text-center">
+                        Explorer notre Portfolio
+                    </a>
+                    <a href="#standards" class="px-6 py-3 border border-slate-700 rounded-lg font-bold hover:bg-slate-800 transition-all cursor-pointer inline-block text-center">
+                        Nos Standards Techniques
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="stats-card p-8 rounded-3xl">
+                    <div class="text-blue-500 mb-4"><i data-lucide="check-square" class="w-8 h-8"></i></div>
+                    <div class="text-4xl font-bold mb-1">100%</div>
+                    <div class="text-xs uppercase font-bold text-slate-500 tracking-widest">Conformité CCTP</div>
+                </div>
+                <div class="stats-card p-8 rounded-3xl">
+                    <div class="text-blue-500 mb-4"><i data-lucide="layers" class="w-8 h-8"></i></div>
+                    <div class="text-4xl font-bold mb-1">B5/350</div>
+                    <div class="text-xs uppercase font-bold text-slate-500 tracking-widest">Standard Béton</div>
+                </div>
+                <div class="stats-card p-8 rounded-3xl">
+                    <div class="text-blue-500 mb-4"><i data-lucide="gauge" class="w-8 h-8"></i></div>
+                    <div class="text-4xl font-bold mb-1">98%</div>
+                    <div class="text-xs uppercase font-bold text-slate-500 tracking-widest">Compactage OPM</div>
+                </div>
+                <div class="stats-card p-8 rounded-3xl">
+                    <div class="text-blue-500 mb-4"><i data-lucide="map" class="w-8 h-8"></i></div>
+                    <div class="text-4xl font-bold mb-1">3+</div>
+                    <div class="text-xs uppercase font-bold text-slate-500 tracking-widest">Gouvernorats</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertises" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+            <div>
+                <h3 class="text-sm font-bold text-blue-600 uppercase tracking-[0.3em] mb-3">Savoir-Faire</h3>
+                <h2 class="text-4xl font-bold text-slate-900">Domaines d'Intervention</h2>
+            </div>
+            <div class="h-px bg-slate-200 flex-grow mx-10 mb-4 hidden md:block"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="p-8 bg-white border border-slate-200 rounded-3xl hover:border-blue-500 transition-colors group">
+                <div class="w-12 h-12 bg-slate-100 text-slate-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                    <i data-lucide="route" class="w-6 h-6"></i>
+                </div>
+                <!-- Added break-words to handle long words -->
+                <h4 class="font-bold text-xl mb-4 break-words">Routes & Voiries</h4>
+                <p class="text-slate-500 text-sm leading-relaxed">Excécution de couches de fondation (0/30) et couches de base (0/20). Maîtrise des bordures T3 et pavés autobloquants.</p>
+            </div>
+            <div class="p-8 bg-white border border-slate-200 rounded-3xl hover:border-blue-500 transition-colors group">
+                <div class="w-12 h-12 bg-slate-100 text-slate-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                    <i data-lucide="anchor" class="w-6 h-6"></i>
+                </div>
+                <h4 class="font-bold text-xl mb-4 break-words">Génie Civil</h4>
+                <p class="text-slate-500 text-sm leading-relaxed">Construction d'ouvrages hydrauliques, regards de visite, et structures en béton armé dosé à 350kg/m3.</p>
+            </div>
+            <div class="p-8 bg-white border border-slate-200 rounded-3xl hover:border-blue-500 transition-colors group">
+                <div class="w-12 h-12 bg-slate-100 text-slate-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                    <i data-lucide="radio-tower" class="w-6 h-6"></i>
+                </div>
+                <!-- Added break-words to handle long words -->
+                <h4 class="font-bold text-xl mb-4 break-words">Télécommunications</h4>
+                <p class="text-slate-500 text-sm leading-relaxed">Infrastructure souterraine, génie civil pour fibre optique et pose de chambres de tirage spécialisées.</p>
+            </div>
+            <div class="p-8 bg-white border border-slate-200 rounded-3xl hover:border-blue-500 transition-colors group">
+                <div class="w-12 h-12 bg-slate-100 text-slate-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                    <i data-lucide="factory" class="w-6 h-6"></i>
+                </div>
+                <h4 class="font-bold text-xl mb-4 break-words">Bâtiment Industriel</h4>
+                <p class="text-slate-500 text-sm leading-relaxed">Réalisation de gros œuvre, structures porteuses et aménagements de plateformes à haute résistance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Material/Logistics Section -->
+    <section id="materiel" class="py-24 px-6 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+                <div>
+                    <h3 class="text-sm font-bold text-blue-500 uppercase tracking-[0.3em] mb-3">Capacité Logistique</h3>
+                    <h2 class="text-4xl font-bold">Parc Matériel Engins</h2>
+                </div>
+                <div class="h-px bg-slate-800 flex-grow mx-10 mb-4 hidden md:block"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Terrassement -->
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl relative overflow-hidden group">
+                    <div class="absolute -right-4 -top-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                         <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="machinery-icon text-white"><path d="M2 17v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2"></path><path d="M7 21v-4"></path><path d="M17 21v-4"></path><path d="M20 13c0-4-1-7-4-7h-8c-3 0-4 3-4 7v4h16v-4z"></path><path d="M12 6V2"></path></svg>
+                    </div>
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-12 h-12 bg-blue-600/20 text-blue-400 rounded-xl flex items-center justify-center">
+                            <i data-lucide="truck" class="w-6 h-6"></i>
+                        </div>
+                        <h4 class="text-xl font-bold uppercase tracking-tight">Terrassement</h4>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Chargeuses (Trax)</span>
+                            <span class="font-bold text-blue-400 font-mono">X2</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Mini-Chargeurs</span>
+                            <span class="font-bold text-blue-400 font-mono">X3</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Pelles Hydrauliques</span>
+                            <span class="font-bold text-blue-400 font-mono">X1</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Compactage & Transport -->
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl relative overflow-hidden group">
+                    <div class="absolute -right-4 -top-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="machinery-icon text-white"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v8"></path><path d="M8 12h8"></path></svg>
+                    </div>
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-12 h-12 bg-blue-600/20 text-blue-400 rounded-xl flex items-center justify-center">
+                            <i data-lucide="settings-2" class="w-6 h-6"></i>
+                        </div>
+                        <h4 class="text-xl font-bold uppercase tracking-tight">Compactage</h4>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Compacteurs Vibrants</span>
+                            <span class="font-bold text-blue-400 font-mono">X2</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Plaques Vibrantes</span>
+                            <span class="font-bold text-blue-400 font-mono">X4</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Camions Bennes</span>
+                            <span class="font-bold text-blue-400 font-mono">X3</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Outillage de Précision -->
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl relative overflow-hidden group">
+                    <div class="absolute -right-4 -top-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="machinery-icon text-white"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                    </div>
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-12 h-12 bg-blue-600/20 text-blue-400 rounded-xl flex items-center justify-center">
+                            <i data-lucide="scan-line" class="w-6 h-6"></i>
+                        </div>
+                        <h4 class="text-xl font-bold uppercase tracking-tight">Technique</h4>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Niveaux Laser Topo</span>
+                            <span class="font-bold text-blue-400 font-mono">Complet</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Vibreurs à Béton</span>
+                            <span class="font-bold text-blue-400 font-mono">X6</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Groupes Électrogènes</span>
+                            <span class="font-bold text-blue-400 font-mono">X2</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p class="mt-12 text-center text-slate-500 text-sm italic">
+                L'ensemble de notre parc matériel est soumis à une maintenance préventive rigoureuse pour garantir une disponibilité opérationnelle immédiate.
+            </p>
+        </div>
+    </section>
+
+    <!-- References Section -->
+    <section id="references" class="py-24 bg-slate-100 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-sm font-bold text-blue-600 uppercase tracking-[0.3em] mb-3">Historique</h3>
+                <h2 class="text-4xl font-bold text-slate-900">Références & Réalisations</h2>
+                <p class="mt-4 text-slate-500">Une présence consolidée sur les axes stratégiques de la Tunisie.</p>
+            </div>
+
+            <div class="space-y-12">
+                <!-- Tunis Table -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-200">
+                    <div class="bg-slate-900 px-8 py-4 flex items-center gap-3">
+                        <i data-lucide="map-pin" class="w-5 h-5 text-blue-400"></i>
+                        <span class="text-white font-bold uppercase tracking-widest text-sm">Gouvernorat de Tunis</span>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr class="bg-slate-50 border-b border-slate-200">
+                                    <th class="px-8 py-5 font-bold text-slate-700 uppercase text-xs">Type de Projet</th>
+                                    <th class="px-8 py-5 font-bold text-slate-700 uppercase text-xs">Nature des Travaux</th>
+                                    <th class="px-8 py-5 font-bold text-slate-700 uppercase text-xs">Localité</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="data-row border-b border-slate-100">
+                                    <td class="px-8 py-5 font-semibold">Routes & Voiries</td>
+                                    <td class="px-8 py-5 text-slate-600">Aménagement de voiries urbaines et trottoirs</td>
+                                    <td class="px-8 py-5 text-slate-500">Tunis Centre</td>
+                                </tr>
+                                <tr class="data-row border-b border-slate-100">
+                                    <td class="px-8 py-5 font-semibold">Génie Civil</td>
+                                    <td class="px-8 py-5 text-slate-600">Construction de collecteurs pluviaux</td>
+                                    <td class="px-8 py-5 text-slate-500">Sidi Hassine</td>
+                                </tr>
+                                <tr class="data-row border-b border-slate-100">
+                                    <td class="px-8 py-5 font-semibold">Hydraulique</td>
+                                    <td class="px-8 py-5 text-slate-600">Renforcement du réseau d'eau potable</td>
+                                    <td class="px-8 py-5 text-slate-500">Menzah</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Ariana Table -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-200">
+                    <div class="bg-slate-900 px-8 py-4 flex items-center gap-3">
+                        <i data-lucide="map-pin" class="w-5 h-5 text-blue-400"></i>
+                        <span class="text-white font-bold uppercase tracking-widest text-sm">Gouvernorat d'Ariana</span>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr class="bg-slate-50 border-b border-slate-200">
+                                    <th class="px-8 py-5 font-bold text-slate-700 uppercase text-xs">Type de Projet</th>
+                                    <th class="px-8 py-5 font-bold text-slate-700 uppercase text-xs">Nature des Travaux</th>
+                                    <th class="px-8 py-5 font-bold text-slate-700 uppercase text-xs">Localité</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="data-row border-b border-slate-100">
+                                    <td class="px-8 py-5 font-semibold">Télécommunications</td>
+                                    <td class="px-8 py-5 text-slate-600">Infrastructure réseaux fibre optique</td>
+                                    <td class="px-8 py-5 text-slate-500">Pôle El Ghazala</td>
+                                </tr>
+                                <tr class="data-row border-b border-slate-100">
+                                    <td class="px-8 py-5 font-semibold">Voiries</td>
+                                    <td class="px-8 py-5 text-slate-600">Goudronnage et bordures de trottoirs T3</td>
+                                    <td class="px-8 py-5 text-slate-500">Ennasr</td>
+                                </tr>
+                                <tr class="data-row border-b border-slate-100">
+                                    <td class="px-8 py-5 font-semibold">Bâtiment</td>
+                                    <td class="px-8 py-5 text-slate-600">Gros œuvre résidence R+4</td>
+                                    <td class="px-8 py-5 text-slate-500">Ariana Centre</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Nabeul Table -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-200">
+                    <div class="bg-slate-900 px-8 py-4 flex items-center gap-3">
+                        <i data-lucide="map-pin" class="w-5 h-5 text-blue-400"></i>
+                        <span class="text-white font-bold uppercase tracking-widest text-sm">Gouvernorat de Nabeul</span>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr class="bg-slate-50 border-b border-slate-200">
+                                    <th class="px-8 py-5 font-bold text-slate-700 uppercase text-xs">Type de Projet</th>
+                                    <th class="px-8 py-5 font-bold text-slate-700 uppercase text-xs">Nature des Travaux</th>
+                                    <th class="px-8 py-5 font-bold text-slate-700 uppercase text-xs">Localité</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="data-row border-b border-slate-100">
+                                    <td class="px-8 py-5 font-semibold">Routes</td>
+                                    <td class="px-8 py-5 text-slate-600">Revêtement en béton bitumineux</td>
+                                    <td class="px-8 py-5 text-slate-500">Hammamet</td>
+                                </tr>
+                                <tr class="data-row border-b border-slate-100">
+                                    <td class="px-8 py-5 font-semibold">Terrassements</td>
+                                    <td class="px-8 py-5 text-slate-600">Préparation plateforme industrielle</td>
+                                    <td class="px-8 py-5 text-slate-500">Grombalia</td>
+                                </tr>
+                                <tr class="data-row border-b border-slate-100">
+                                    <td class="px-8 py-5 font-semibold">Génie Civil</td>
+                                    <td class="px-8 py-5 text-slate-600">Caniveaux et évacuation des eaux</td>
+                                    <td class="px-8 py-5 text-slate-500">Nabeul Centre</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards Section -->
+    <section id="standards" class="py-24 px-6 max-w-7xl mx-auto mb-20">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <h3 class="text-sm font-bold text-blue-600 uppercase tracking-[0.3em] mb-3">Excellence</h3>
+                <h2 class="text-4xl font-bold text-slate-900 mb-8">Rigueur Technique & Normes Qualité</h2>
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center font-bold">01</div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1">Maîtrise du Compactage</h4>
+                            <p class="text-slate-500 text-sm">Validation systématique des densités à 98% de l'OPM modifié pour toutes les couches de fondation et de base.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center font-bold">02</div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1">Qualité des Bétons</h4>
+                            <p class="text-slate-500 text-sm">Utilisation exclusive de bétons dosés à 350kg de ciment CEM I 32,5 pour les structures en béton armé (B5/350).</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center font-bold">03</div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1">Gestion de Projet CCTP</h4>
+                            <p class="text-slate-500 text-sm">Suivi rigoureux des Cahiers des Clauses Techniques Particulières et coordination avec les maîtres d'œuvre.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-slate-900 p-12 rounded-[3rem] text-white">
+                <h3 class="text-2xl font-bold mb-6 italic text-blue-400">"Bâtir avec intégrité, exécuter avec précision."</h3>
+                <p class="text-slate-400 mb-8 leading-relaxed">
+                    L'entreprise Mahmoud Frechichi s'est forgée une réputation de fiabilité auprès des institutions publiques et privées. Notre approche repose sur une transparence technique totale et un respect absolu des délais contractuels.
+                </p>
+                <div class="pt-8 border-t border-slate-800">
+                    <div class="font-bold text-lg uppercase tracking-tight">Gérant</div>
+                    <div class="text-blue-500 text-sm uppercase tracking-widest font-bold">Marwen Frechichi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
