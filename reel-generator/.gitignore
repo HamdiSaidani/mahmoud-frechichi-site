@@ -1,0 +1,4 @@
+# generated videos, frames, and audio
+out/
+__pycache__/
+*.pyc
